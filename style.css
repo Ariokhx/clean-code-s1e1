@@ -13,7 +13,7 @@
 .logo .img {
     width: 100%;
 }
-.logo .more_inf {
+.logo .more-inf {
     font-family: fantasy, cursive;
 }
 
@@ -38,15 +38,13 @@
     margin:0;
     padding: 0px;
 }
-
 .li,
 .font-h3 {
     list-style:none;
 }
-
 .input,
 .button{
-    outline:none;
+    outline: none;
 }
 .button {
     background: none;
@@ -119,10 +117,10 @@
     font-size: 18px;
     width: 226px;
 }
-.li >    .input[type="text"] {
+.li >    input[type="text"] {
     width: 226px;
 }
-.button.delete img {
+.button.delete .img {
     height: 2em;
     transform: rotateZ(45deg);
     transition: transform 200ms ease-in;
@@ -139,14 +137,14 @@
 
 /* Edit Task */
 .ul .li .input[type=text] {
-    display:none;
+    display: none;
 }
 
 .ul .li.edit-mode .input[type=text] {
-    display:inline-block;
-    width:224px
+    display: inline-block;
+    width: 224px
 }
 
 .ul .li.edit-mode .label {
-    display:none;
+    display: none;
 }
